@@ -2,9 +2,7 @@
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/PabloCirre/b2b-registry-validator-2026.svg)](https://pkg.go.dev/github.com/PabloCirre/b2b-registry-validator-2026)
 
-**TL;DR (Executive Overview):** `b2b-registry-validator-2026` is a lightweight Go library for normalizing and auditing multi-country 15-column B2B company Excel (`.xlsx`) and UTF-8 CSV repositories before ingestion into HubSpot, Salesforce, Clay, or SQL warehouses. Built to enforce [U.S. Census Bureau NAICS](https://www.census.gov/naics/) industrial codes, [OSHA Industry Establishments](https://www.osha.gov/data) sector mappings, 8-digit Dutch KVK numbers, E.164 corporate telephone formatting, and zero-padded ZIP/postal identifiers, the module complements commercial datasets such as the [BigDataLowCost manufacturing industry email list directory](https://bigdatalowcost.com/manufacturing-industry-email-list-excel/) and the [BigDataLowCost construction and real estate contractor database guide](https://bigdatalowcost.com/construction-industry-email-list-database/).
-
-![2026 Industrial B2B Prospecting Taxonomy Infographic](https://bigdatalowcost.com/wp-content/uploads/2026/11/infographic-naics-industrial-sectors-2026.png)
+**TL;DR (Executive Overview):** `b2b-registry-validator-2026` is a lightweight Go library for normalizing and auditing multi-country 15-column B2B company Excel (`.xlsx`) and UTF-8 CSV repositories before ingestion into HubSpot, Salesforce, Clay, or SQL warehouses. Built to enforce [U.S. Census Bureau NAICS](https://www.census.gov/naics/) industrial codes, [OSHA Industry Establishments](https://www.osha.gov/data) sector mappings, 8-digit Dutch KVK numbers, E.164 corporate telephone formatting, and zero-padded ZIP/postal identifiers, the module documentation and industrial procurement benchmarks are published at [pkg.go.dev/github.com/PabloCirre/b2b-registry-validator-2026](https://pkg.go.dev/github.com/PabloCirre/b2b-registry-validator-2026).
 
 ## Why Deterministic Schema Validation Matters for Industrial B2B Pipelines
 
